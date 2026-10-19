@@ -1,0 +1,31 @@
+[theme]
+# Build upon Streamlit's dark base
+base = "dark"
+
+# Vibrant Emerald accent for buttons, active sliders, and links
+primaryColor = "#10B981"
+
+# Deep slate main background color (Slate 900)
+backgroundColor = "#0F172A"
+
+# Slightly lighter slate for sidebars, containers, and cards (Slate 800)
+secondaryBackgroundColor = "#1E293B"
+
+# Crisp, high-contrast off-white text for readability (Slate 50)
+textColor = "#F8FAFC"
+
+# Modern sans-serif font family
+font = "sans serif"
+
+# Smooth, modern rounded corners for cards and inputs
+baseRadius = "0.5rem"
+
+# Subtle borders to separate sections cleanly
+borderColor = "#334155"
+
+[server]
+headless = true
+enableCORS = true
+
+[browser]
+gatherUsageStats = false
